@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Austin Kenyon 
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION:  Using if and else statements to generate a compliment.
 
 
 
@@ -15,6 +15,13 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+comp = input('Would you like a compliment? ')
+if comp == "yes":
+    print("You have wonderful eyes.")
+    print("Thank you for playing.") 
+else:
+    print("No compliment for you!")
+    print("Thank you for playing.")
 
 
 
@@ -70,7 +77,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+No I only had to add one extra print line to the else statement.
 
 
 
